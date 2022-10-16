@@ -1,0 +1,15 @@
+/home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/ament_index/resource_index/package_run_dependencies/inference_interfaces
+/home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/ament_index/resource_index/parent_prefix_path/inference_interfaces
+/home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/environment/ament_prefix_path.sh
+/home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/environment/ament_prefix_path.dsv
+/home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/environment/path.sh
+/home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/environment/path.dsv
+/home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/local_setup.bash
+/home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/local_setup.sh
+/home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/local_setup.zsh
+/home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/local_setup.dsv
+/home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/package.dsv
+/home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/ament_index/resource_index/packages/inference_interfaces
+/home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/cmake/inference_interfacesConfig.cmake
+/home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/cmake/inference_interfacesConfig-version.cmake
+/home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/package.xml

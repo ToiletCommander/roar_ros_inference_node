@@ -1,0 +1,1 @@
+Invoking command in '/home/michael/Desktop/yunhao/roar_ros_inference_node/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/michael/Desktop/yunhao/roar_ros_inference_node/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/michael/Desktop/yunhao/roar_ros_inference_node/install/turtlesim

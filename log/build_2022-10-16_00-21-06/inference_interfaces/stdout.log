@@ -1,0 +1,29 @@
+-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/michael/miniconda3/bin/python3
+-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/michael/Desktop/yunhao/roar_ros_inference_node/build/inference_interfaces
+-- Install configuration: ""
+-- Installing: /home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/ament_index/resource_index/package_run_dependencies/inference_interfaces
+-- Installing: /home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/ament_index/resource_index/parent_prefix_path/inference_interfaces
+-- Installing: /home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/environment/path.sh
+-- Installing: /home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/environment/path.dsv
+-- Installing: /home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/local_setup.bash
+-- Installing: /home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/local_setup.sh
+-- Installing: /home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/local_setup.zsh
+-- Installing: /home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/local_setup.dsv
+-- Installing: /home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/package.dsv
+-- Installing: /home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/ament_index/resource_index/packages/inference_interfaces
+-- Installing: /home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/cmake/inference_interfacesConfig.cmake
+-- Installing: /home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/cmake/inference_interfacesConfig-version.cmake
+-- Installing: /home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces/share/inference_interfaces/package.xml

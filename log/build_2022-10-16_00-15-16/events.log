@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.000157] (inference_interfaces) JobQueued: {'identifier': 'inference_interfaces', 'dependencies': OrderedDict()}
+[0.001159] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001276] (inference_interfaces) JobStarted: {'identifier': 'inference_interfaces'}
+[0.012366] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.018402] (inference_interfaces) JobProgress: {'identifier': 'inference_interfaces', 'progress': 'cmake'}
+[0.018601] (inference_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/michael/Desktop/yunhao/roar_ros_inference_node/src/inference_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/michael/Desktop/yunhao/roar_ros_inference_node/install/inference_interfaces'], 'cwd': '/home/michael/Desktop/yunhao/roar_ros_inference_node/build/inference_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'michael'), ('SSH_AGENT_PID', '1393'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/michael'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/michael/Desktop/yunhao/roar_ros_inference_node/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1196'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'michael'), ('JOURNAL_STREAM', '8:43664'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'michael'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/michael/miniconda3/bin:/home/michael/miniconda3/condabin:/opt/ros/galactic/bin:/home/michael/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/roar-Alienware-m15-R2:@/tmp/.ICE-unix/1449,unix/roar-Alienware-m15-R2:/tmp/.ICE-unix/1449'), ('INVOCATION_ID', 'dde62f61fea844269331484e8dc3d8a9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02ff524b_f48a_4c80_8fde_9954f795728e'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('CONDA_PYTHON_EXE', '/home/michael/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/michael/Desktop/yunhao/roar_ros_inference_node/build/inference_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/michael/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/michael/miniconda3'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', ':/opt/Vimba_6_0/VimbaGigETL/CTI/x86_64bit'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.023334] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.024975] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/michael/Desktop/yunhao/roar_ros_inference_node/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/michael/Desktop/yunhao/roar_ros_inference_node/install/turtlesim'], 'cwd': '/home/michael/Desktop/yunhao/roar_ros_inference_node/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'michael'), ('SSH_AGENT_PID', '1393'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/michael'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/michael/Desktop/yunhao/roar_ros_inference_node/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1196'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'michael'), ('JOURNAL_STREAM', '8:43664'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'michael'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/michael/miniconda3/bin:/home/michael/miniconda3/condabin:/opt/ros/galactic/bin:/home/michael/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/roar-Alienware-m15-R2:@/tmp/.ICE-unix/1449,unix/roar-Alienware-m15-R2:/tmp/.ICE-unix/1449'), ('INVOCATION_ID', 'dde62f61fea844269331484e8dc3d8a9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02ff524b_f48a_4c80_8fde_9954f795728e'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('CONDA_PYTHON_EXE', '/home/michael/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/michael/Desktop/yunhao/roar_ros_inference_node/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/michael/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/michael/miniconda3'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', ':/opt/Vimba_6_0/VimbaGigETL/CTI/x86_64bit'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.099355] (-) TimerEvent: {}
+[0.199722] (-) TimerEvent: {}
+[0.202441] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.202647] (inference_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.299836] (-) TimerEvent: {}
+[0.328836] (inference_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.329894] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.336142] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.336575] (inference_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.399964] (-) TimerEvent: {}
+[0.400309] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.400683] (inference_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.401873] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.402083] (inference_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.465004] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.465152] (inference_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.474587] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.474728] (inference_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.475104] (inference_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.475190] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.477648] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.477740] (inference_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500059] (-) TimerEvent: {}
+[0.544124] (inference_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.544347] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.544999] (inference_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.545559] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600178] (-) TimerEvent: {}
+[0.612272] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.613718] (inference_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.622150] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.622689] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.623455] (inference_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.623876] (inference_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.626224] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.626492] (inference_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.643400] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /home/michael/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") \n'}
+[0.643541] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/michael/miniconda3/bin/python3\n'}
+[0.643876] (inference_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /home/michael/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") \n'}
+[0.644126] (inference_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/michael/miniconda3/bin/python3\n'}
+[0.700301] (-) TimerEvent: {}
+[0.717583] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.2.0 (/opt/ros/galactic/share/ament_index_cpp/cmake)\n'}
+[0.717959] (inference_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[0.721206] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[0.739658] (inference_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.739987] (inference_interfaces) StderrLine: {'line': b'  File "/opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>\n'}
+[0.740178] (inference_interfaces) StderrLine: {'line': b'    from catkin_pkg.package import evaluate_condition\n'}
+[0.740275] (inference_interfaces) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[0.742745] (inference_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[0.742913] (inference_interfaces) StderrLine: {'line': b'  execute_process(/home/michael/miniconda3/bin/python3\n'}
+[0.743097] (inference_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.743165] (inference_interfaces) StderrLine: {'line': b'  /home/michael/Desktop/yunhao/roar_ros_inference_node/src/inference_interfaces/package.xml\n'}
+[0.743227] (inference_interfaces) StderrLine: {'line': b'  /home/michael/Desktop/yunhao/roar_ros_inference_node/build/inference_interfaces/ament_cmake_core/package.cmake)\n'}
+[0.743288] (inference_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[0.743346] (inference_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.743405] (inference_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.743463] (inference_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[0.743522] (inference_interfaces) StderrLine: {'line': b'  CMakeLists.txt:22 (ament_lint_auto_find_test_dependencies)\n'}
+[0.743604] (inference_interfaces) StderrLine: {'line': b'\n'}
+[0.743689] (inference_interfaces) StderrLine: {'line': b'\n'}
+[0.743895] (inference_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.743990] (inference_interfaces) StdoutLine: {'line': b'See also "/home/michael/Desktop/yunhao/roar_ros_inference_node/build/inference_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.747795] (inference_interfaces) CommandEnded: {'returncode': 1}
+[0.752850] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.760127] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.772458] (inference_interfaces) JobEnded: {'identifier': 'inference_interfaces', 'rc': 1}
+[0.800394] (-) TimerEvent: {}
+[0.840153] (turtlesim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.865631] (turtlesim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[0.900494] (-) TimerEvent: {}
+[0.936573] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.000608] (-) TimerEvent: {}
+[1.028680] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[1.075269] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.078201] (turtlesim) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.096203] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.097703] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.100704] (-) TimerEvent: {}
+[1.166241] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.166580] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.200833] (-) TimerEvent: {}
+[1.240124] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.240354] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.292306] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.292617] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.300936] (-) TimerEvent: {}
+[1.357269] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.358225] (turtlesim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.401045] (-) TimerEvent: {}
+[1.475570] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 9.2.1 (/opt/ros/galactic/share/rclcpp_action/cmake)\n'}
+[1.501149] (-) TimerEvent: {}
+[1.544252] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[1.555106] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)\n'}
+[1.577830] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /home/michael/miniconda3/bin/python3 (found version "3.8.13") \n'}
+[1.601266] (-) TimerEvent: {}
+[1.612575] (turtlesim) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[1.612711] (turtlesim) StderrLine: {'line': b'  execute_process(/home/michael/miniconda3/bin/python3 -m rosidl_adapter\n'}
+[1.612772] (turtlesim) StderrLine: {'line': b'  --package-name turtlesim --arguments-file\n'}
+[1.612827] (turtlesim) StderrLine: {'line': b'  /home/michael/Desktop/yunhao/roar_ros_inference_node/build/turtlesim/rosidl_adapter__arguments__turtlesim.json\n'}
+[1.612880] (turtlesim) StderrLine: {'line': b'  --output-dir\n'}
+[1.612932] (turtlesim) StderrLine: {'line': b'  /home/michael/Desktop/yunhao/roar_ros_inference_node/build/turtlesim/rosidl_adapter/turtlesim\n'}
+[1.612983] (turtlesim) StderrLine: {'line': b'  --output-file\n'}
+[1.613039] (turtlesim) StderrLine: {'line': b'  /home/michael/Desktop/yunhao/roar_ros_inference_node/build/turtlesim/rosidl_adapter/turtlesim.idls)\n'}
+[1.613094] (turtlesim) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.613148] (turtlesim) StderrLine: {'line': b'\n'}
+[1.613202] (turtlesim) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.613256] (turtlesim) StderrLine: {'line': b'\n'}
+[1.613308] (turtlesim) StderrLine: {'line': b'    File "/home/michael/miniconda3/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[1.613361] (turtlesim) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.613414] (turtlesim) StderrLine: {'line': b'    File "/home/michael/miniconda3/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[1.613474] (turtlesim) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.613528] (turtlesim) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.613581] (turtlesim) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.613634] (turtlesim) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.613688] (turtlesim) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.613740] (turtlesim) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 28, in convert_to_idl\n'}
+[1.613793] (turtlesim) StderrLine: {'line': b'      from rosidl_adapter.action import convert_action_to_idl\n'}
+[1.613846] (turtlesim) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 16, in <module>\n'}
+[1.613899] (turtlesim) StderrLine: {'line': b'      from rosidl_adapter.resource import expand_template\n'}
+[1.613951] (turtlesim) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>\n'}
+[1.614005] (turtlesim) StderrLine: {'line': b'      import em\n'}
+[1.614057] (turtlesim) StderrLine: {'line': b'\n'}
+[1.614109] (turtlesim) StderrLine: {'line': b"  ModuleNotFoundError: No module named 'em'\n"}
+[1.614170] (turtlesim) StderrLine: {'line': b'\n'}
+[1.614223] (turtlesim) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.614275] (turtlesim) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.614329] (turtlesim) StderrLine: {'line': b'  CMakeLists.txt:24 (rosidl_generate_interfaces)\n'}
+[1.614382] (turtlesim) StderrLine: {'line': b'\n'}
+[1.614434] (turtlesim) StderrLine: {'line': b'\n'}
+[1.614873] (turtlesim) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.614976] (turtlesim) StdoutLine: {'line': b'See also "/home/michael/Desktop/yunhao/roar_ros_inference_node/build/turtlesim/CMakeFiles/CMakeOutput.log".\n'}
+[1.615039] (turtlesim) StdoutLine: {'line': b'See also "/home/michael/Desktop/yunhao/roar_ros_inference_node/build/turtlesim/CMakeFiles/CMakeError.log".\n'}
+[1.621927] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 'SIGINT'}
+[1.633814] (-) EventReactorShutdown: {}

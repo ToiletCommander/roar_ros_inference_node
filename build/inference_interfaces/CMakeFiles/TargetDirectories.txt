@@ -1,0 +1,9 @@
+/home/michael/Desktop/yunhao/roar_ros_inference_node/build/inference_interfaces/CMakeFiles/install/strip.dir
+/home/michael/Desktop/yunhao/roar_ros_inference_node/build/inference_interfaces/CMakeFiles/install/local.dir
+/home/michael/Desktop/yunhao/roar_ros_inference_node/build/inference_interfaces/CMakeFiles/install.dir
+/home/michael/Desktop/yunhao/roar_ros_inference_node/build/inference_interfaces/CMakeFiles/list_install_components.dir
+/home/michael/Desktop/yunhao/roar_ros_inference_node/build/inference_interfaces/CMakeFiles/rebuild_cache.dir
+/home/michael/Desktop/yunhao/roar_ros_inference_node/build/inference_interfaces/CMakeFiles/edit_cache.dir
+/home/michael/Desktop/yunhao/roar_ros_inference_node/build/inference_interfaces/CMakeFiles/test.dir
+/home/michael/Desktop/yunhao/roar_ros_inference_node/build/inference_interfaces/CMakeFiles/inference_interfaces_uninstall.dir
+/home/michael/Desktop/yunhao/roar_ros_inference_node/build/inference_interfaces/CMakeFiles/uninstall.dir

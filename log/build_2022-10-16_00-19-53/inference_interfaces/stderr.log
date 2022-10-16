@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+    from catkin_pkg.package import evaluate_condition
+ModuleNotFoundError: No module named 'catkin_pkg'
+CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+  execute_process(/home/michael/miniconda3/bin/python3
+  /opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+  /home/michael/Desktop/yunhao/roar_ros_inference_node/src/inference_interfaces/package.xml
+  /home/michael/Desktop/yunhao/roar_ros_inference_node/build/inference_interfaces/ament_cmake_core/package.cmake)
+  returned error code 1
+Call Stack (most recent call first):
+  /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+  /opt/ros/galactic/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+  CMakeLists.txt:28 (ament_lint_auto_find_test_dependencies)
+
+

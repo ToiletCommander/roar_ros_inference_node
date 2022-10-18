@@ -36,6 +36,7 @@ class InferencePubSub(Node):
     def __init__(self, sensor_topic : str, pub_topic : str, model, inference_engine, inference_device):
         super().__init__('minimal_publisher')
         self.publisher_ = self.create_publisher(InferenceResult, pub_topic, 10)
+        self.subscriber_ = self.create_subscription(Image,sensor_topic,self.sub_callback)
         self.sensor_topic = sensor_topic
         self.model = model
         self.inference_engine = inference_engine
@@ -73,13 +74,6 @@ class InferencePubSub(Node):
         inferenceResult.detectedBoxes = all_bounding_boxes
         self.publisher_.publish(inferenceResult)
 
-    def timer_callback(self):
-        msg = String()
-        msg.data = 'Hello World: %d' % self.i
-        self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg.data)
-        self.i += 1
-
 def getArgumentParser() -> argparse.ArgumentParser:
     argParser = argparse.ArgumentParser()
     argParser.add_argument("--sensor_topic","-s",type=str,default="/vimba_front_left_center/image")
@@ -97,7 +91,13 @@ def main(args=None):
     inference_engine = onnx_tensorrt.backend.prepare(model,device=inference_parameters['inference_device'])
     inference_device = torch.device(inference_parameters['inference_device'])
     
-    inf_pubsub = InferencePubSub(inference_parameters['sensor_topic'],inference_parameters['pub_topic'],model,inference_engine)
+    inf_pubsub = InferencePubSub(
+        inference_parameters['sensor_topic'],
+        inference_parameters['pub_topic'],
+        model,
+        inference_engine,
+        inference_device
+    )
 
     rclpy.spin(inf_pubsub)
 

@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "inference_service = py_yolo_inference_node.publisher_member_function:main"
         ],
     },
 )

@@ -14,15 +14,14 @@
 
 import argparse
 import onnx
-import onnx_tensorrt
+import onnxruntime as ort
 import rclpy
 from rclpy.node import Node
 import numpy as np
-import cv2
 
-from std_msgs.msg import String
-from inference_interfaces.msg import InferenceResult, YoloInferenceBox
+from std_msgs.msg import String, Header
 from sensor_msgs.msg import Image
+from vision_msgs.msg import BoundingBox2DArray, BoundingBox2D
 from cv_bridge import CvBridge
 import torch.nn.functional as F
 import torch
@@ -35,7 +34,7 @@ class InferencePubSub(Node):
 
     def __init__(self, sensor_topic : str, pub_topic : str, model, inference_engine, inference_device):
         super().__init__('minimal_publisher')
-        self.publisher_ = self.create_publisher(InferenceResult, pub_topic, 10)
+        self.publisher_ = self.create_publisher(BoundingBox2DArray, pub_topic, 10)
         self.subscriber_ = self.create_subscription(Image,sensor_topic,self.sub_callback)
         self.sensor_topic = sensor_topic
         self.model = model
@@ -57,21 +56,28 @@ class InferencePubSub(Node):
         with torch.no_grad():
             resized_torch_img = F.interpolate(torch_image,size=model_input_size[:2],mode="bilinear")
         resized_img = resized_torch_img.cpu().numpy()
+
         
-        inference_output = self.inference_engine.run(resized_img)[0]
+        inference_output = self.inference_engine.run(resized_img)
+        print(inference_output)
         
         all_bounding_boxes = []
         for o in inference_output:
-            b = YoloInferenceBox()
-            b.confidence = o[4]
-            b.center_x = o[0]
-            b.center_y = o[1]
-            b.size_x = o[2]
-            b.size_y = o[3]
-            all_bounding_boxes.append(b)
+            box = BoundingBox2D()
+            box.center.x = o[0]
+            box.center.y = o[1]
+            box.size_x = o[2]
+            box.size_y = o[3]
+            all_bounding_boxes.append(box)
+            #confidence = o[4]
+            #center_x = o[0]
+            #center_y = o[1]
+            #size_x = o[2]
+            #size_y = o[3]
         
-        inferenceResult = InferenceResult()
-        inferenceResult.detectedBoxes = all_bounding_boxes
+        
+        inferenceResult = BoundingBox2DArray()
+        inferenceResult.boxes = all_bounding_boxes
         self.publisher_.publish(inferenceResult)
 
 def getArgumentParser() -> argparse.ArgumentParser:
@@ -88,7 +94,7 @@ def main(args=None):
     
     inference_parameters = vars(argParser.parse_args(args))
     model = onnx.load(inference_parameters['model_file'])
-    inference_engine = onnx_tensorrt.backend.prepare(model,device=inference_parameters['inference_device'])
+    inference_engine = ort.InferenceSession(model, providers = ['TensorrtExecutionProvider', 'CUDAExecutionProvider']) #onnx_tensorrt.backend.prepare(model,device=inference_parameters['inference_device'])
     inference_device = torch.device(inference_parameters['inference_device'])
     
     inf_pubsub = InferencePubSub(

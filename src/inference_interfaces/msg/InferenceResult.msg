@@ -1,1 +1,0 @@
-YoloInferenceBox[] detectedBoxes
